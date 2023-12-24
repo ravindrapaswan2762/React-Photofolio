@@ -1,0 +1,64 @@
+*{
+  font-size: 25px;
+}
+
+.container{
+    height: auto;
+    width: 95vw;
+    padding: 10px 15px;
+}
+.upperBox{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+/* --------------------------------------------------- */
+.albumBox {
+  /* margin-left: 30px; */
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+
+
+    padding:  0px 8%;
+    /* display: grid; */
+    /* grid-gap: 10px; */
+    /* grid-auto-flow: row; */
+    /* grid-auto-rows: 150px; */
+    /* margin-bottom: 100px; */
+    /* grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); */
+  
+    /* Adjustments for responsiveness */
+    /* max-width: 100%; */
+  }
+  
+  /* Add media queries for additional responsiveness if needed */
+  @media screen and (max-width: 600px) {
+    .List_albumBox__ZR-ht {
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Adjust for smaller screens */
+    }
+  }
+  
+/* ---------------------------------------------------- */
+#addAlbum{
+    background-color: rgba(0,119,255,.1);
+    border: 2px solid #07f;
+    border-radius: 5px;
+    color: #07f;
+    cursor: pointer;
+    font-weight: 700;
+    outline: none;
+    padding: 3px 7px;
+}
+#cancel{
+    background-color: rgba(255,19,0,.1);
+    border: 2px solid #ff1300;
+    color: #ff1300;
+    cursor: pointer;
+    font-weight: 700;
+    outline: none;
+    padding: 3px 7px;
+    border-radius: 5px;
+}

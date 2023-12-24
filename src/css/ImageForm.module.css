@@ -1,0 +1,63 @@
+/* ImageForm.module.css */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+
+}
+.container{
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px 0 rgba(99,99,99,.2);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px auto 10px;
+    padding: 13px;
+    width: 45vw;
+}
+.container span{
+    font-size: 0.8rem;
+    font-weight: 800;
+}
+.container form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container form input{
+    border: 3px solid transparent;
+    border-radius: 30px;
+    font-size: 0.8rem;
+    font-weight: 300;
+    outline: none;
+    width: 95%;
+    padding: 5px 5px 5px 5px;
+    transition: .3s;
+}
+.footer{
+    align-items: center;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.footer button{
+    background-color: #07f;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 0 3px 8px rgba(0,0,0,.24);
+    color: #fff;
+    cursor: pointer;
+    font-size: 0.7rem;
+    font-weight: 600;
+    outline: none;
+    padding-block: 7px;
+    width: 86px;
+}
+#add{
+    background-color: #07f;
+}
+#clear{
+    background-color: rgb(255, 19, 0);
+}

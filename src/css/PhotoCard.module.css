@@ -1,0 +1,51 @@
+
+.card{
+    background-color: #fff;
+    border:  2px solid #a0a0f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px 0 rgba(99,99,99,.2);
+    box-sizing: border-box;
+    cursor: pointer;
+    padding: 10px;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+#image{
+    height: 80%;
+    object-fit: cover;
+    width: 100%;
+}
+
+
+
+
+
+.card .updateDiv{
+    display: none;
+    position: absolute;
+    right: 80%;
+    top: 1px;
+    transition: right 0.5s; /* Change 'left' to 'right' */
+}
+
+.card .deleteDiv{
+    display: none;
+    position: absolute;
+    right: 100%;
+    top: 1px;
+    transition: right 0.5s; /* Change 'left' to 'right' */
+}
+
+.card:hover .deleteDiv {
+  display: block;
+  right: 1px;
+}
+.card:hover .updateDiv{
+    display: block;
+    right: 45px;
+}
+.icon{
+    height: 40px;
+    width: 40px;
+}

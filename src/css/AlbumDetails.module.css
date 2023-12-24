@@ -1,0 +1,112 @@
+.container{
+    margin: 0 auto;
+    max-width: 90%;
+    padding: 0px 10px;
+}
+
+.upperBox{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-block: 30px;
+}
+.upperBox #span{
+    align-items: center;
+    aspect-ratio: 1;
+    background-color: #fcfcfc;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin-right: 15px;
+    width: 50px;
+}
+.upperBox h3{
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+.searchDiv{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: 30px;
+}
+.upperBox button{
+    background-color: rgba(0,119,255,.1);
+    border: 2px solid #07f;
+    border-radius: 5px;
+    color: #07f;
+    cursor: pointer;
+    font-weight: 700;
+    outline: none;
+    padding: 5px 10px;
+}
+img{
+    height: 30px;
+    width:  30px;
+}
+.searchIcon{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------*/
+.albumBox {
+    grid-gap: 20px;
+    display: grid;
+    gap: 20px;
+    grid-auto-flow: row;
+    grid-auto-rows: 200px;
+    grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+    margin-bottom: 50px;
+    margin-top: 10px;
+  }
+  
+  /* Add media queries for additional responsiveness if needed */
+  @media screen and (max-width: 600px) {
+    .List_albumBox__ZR-ht {
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Adjust for smaller screens */
+    }
+  }
+  
+/* ---------------------------------------------------- */
+#addAlbum{
+    background-color: rgba(0,119,255,.1);
+    border: 2px solid #07f;
+    border-radius: 5px;
+    color: #07f;
+    cursor: pointer;
+    font-weight: 700;
+    outline: none;
+    padding: 3px 7px;
+}
+#cancel{
+    background-color: rgba(255,19,0,.1);
+    border: 2px solid #ff1300;
+    color: #ff1300;
+    cursor: pointer;
+    font-weight: 700;
+    outline: none;
+    padding: 3px 7px;
+    border-radius: 5px;
+}
+/* ------------------------------------------------------ */
+.photoDiv{
+    height: 150px;
+    width: 200px;
+    border:  2px solid green;
+}
+#photo{
+    height: 100%;
+    width: 100%;
+}
