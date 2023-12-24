@@ -2,6 +2,8 @@
 This React app allows users to manage and view photo albums. Users can create new albums, add images to them, and update or delete images within an album. 
 The app uses Firebase Firestore for data storage.
 
+## [Hosted Link](https://react-photo-folio.netlify.app/) 👈
+
 # Features
 
 - **Create New Albums**: Users can create new photo albums to organize their images.
